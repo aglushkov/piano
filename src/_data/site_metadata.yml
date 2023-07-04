@@ -1,0 +1,25 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.metadata.title }}, {{ site.metadata.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.metadata.myvariable }}.
+
+title: Piano Lessons in Dublin City
+tagline: Home
+email: nastyast@yahoo.com
+description: >-
+  Private Piano Lessons in Dublin for all ages and levels with professional teacher/concert pianist. Fulfill your dreams - it's never too late! Learn to play, phone today!
+
+navbar:
+  - url: /
+    title: Home
+  - url: /lessons
+    title: Lessons
+  - url: /biography
+    title: Biography
+  - url: /news-and-events
+    title: News and Events
+  - url: /testimonials
+    title: Testimonials
+  - url: /contacts
+    title: Contacts

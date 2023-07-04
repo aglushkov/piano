@@ -1,0 +1,17 @@
+{% comment %}
+called from _layouts.default.liquid
+{% endcomment %}
+<header>
+  <img src="{{ '/images/logo.svg' | relative_url }}" alt="Logo" />
+</header>
+
+<nav>
+  <ul>
+    {% comment %}
+    <! metadata.navbar defined in _data/site_metadata.yml >
+    {% endcomment %}
+    {% for item in metadata.navbar %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
